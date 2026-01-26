@@ -1,6 +1,7 @@
 {
     "$schema": "https://opencode.ai/config.json",
     "share": "disabled",
+    "default_agent": "plan",
     "permission": {
         "edit": "allow",
         "read": {
@@ -19,7 +20,9 @@
             "grep *": "allow",
             "glob *": "allow",
             "ls *": "allow",
-            "find *": "allow"
+            "find *": "allow",
+            "rg *": "allow",
+            "python3 -m pytest *"
         },
         "webfetch": "ask",
         "websearch": "ask"
