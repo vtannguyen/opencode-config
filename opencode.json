@@ -22,7 +22,11 @@
             "ls *": "allow",
             "find *": "allow",
             "rg *": "allow",
-            "python3 -m pytest *": "allow"
+            "wc *": "allow",
+            "git diff *": "allow",
+            "git status *": "allow",
+            "python3 -m pytest *": "allow",
+            "python3 -m py_compile *": "allow"
         },
         "webfetch": "ask",
         "websearch": "ask"
