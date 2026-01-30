@@ -23,6 +23,7 @@
             "find *": "allow",
             "rg *": "allow",
             "wc *": "allow",
+            "tree *": "allow",
             "git diff *": "allow",
             "git status *": "allow",
             "python3 -m pytest *": "allow",
